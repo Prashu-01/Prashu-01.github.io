@@ -1,0 +1,760 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PGZH8HT');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Portfolio</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126939217-2');
+  </script>
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Portfolio" />
+  <meta property="og:description" content="Software Developer" />
+  <meta property="og:url" content="" /> <!-- link of portfolio-->
+  <meta property="og:site_name" content="Portfolio" />
+  <meta property="article:publisher" content="" /> <!-- link of portfolio-->
+  <meta property="og:image" content="/examples/preview.JPG" /> <!-- link of portfolio/example -->
+  <!-- Twitter -->
+  <!-- <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@Prashu_bhogayata" />
+  <meta name="twitter:title" content="Coder | Technofreak | Explorer | Minimalist | Humane" />
+  <meta name="twitter:description" content="Software Developer" />
+  <meta name="twitter:url" content="https://twitter.com/Prashu_bhogayata" /> -->
+  <meta name="author" content="Prashu Verma" />
+  <meta name="description" content="Full Stack developer with passion for front-end." />
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+  <!-- Google Site Verification for indexing -->
+  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe>
+  </noscript>
+
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/passport-new.png" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+        <!-- <a aria-label="Open Prashu's resume in a new tab" href="#resume" target="_blank"
+          onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
+        <a aria-label="Open Prashu's resume in a new tab"
+          href="https://docs.google.com/document/d/1s-lW846k0MkJXFMsf5nImjE4i2JTYW8YVAzCreUE5Zs/edit?usp=sharing"
+          target="_blank" class="waves-effect waves-dark teal-text"><i
+            class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Prashu
+        Verma</a><span class="black-text">Software Developer</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Prashu's Resume in a new tab"
+          href="https://drive.google.com/file/d/1B6MZ1z0-7NsefC3Lm_q-uhib28MTqpE9/view?usp=sharing" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Prashu Verma.</span></h2>
+              <!-- <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5> -->
+              <h5>Passionate about software development and have 6+ months of experience as a Full-Stack Developer
+                Intern at ProdShell Technology and GID Interactives Llp. In these role, I've been actively involved in
+                variety of
+                projects utilizing the MERN stack and have hands on experience with frameworks like Tailwind, MaterialUI
+                and technologies like docker, GitHub actions.
+              </h5>
+            </div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/prashuverma/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/prashu-01/" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <p>
+          I'm final year B.Tech student in Computer Science Engineering at Madan Mohan
+          Malaviya University of Technology in Gorakhpur. Currently gaining experience as Full-stack developer intern at
+          ProdShell Technologies. <br>
+          I'm passionate about software development and have 6+months experience working as Full-Stack Developer Intern
+          at ProdShell and GID Interactives Llp. In this role, I've been actively involved in projects utilizing the
+          MERN stack and have new learnings and hands on experience with docker, GitHub actions, beginner kubernetes.
+          Beyond backend development, I've also collaborated on front-end enhancements and UX improvements, aiming to
+          refine interfaces and performance.
+          <!-- I am final year Computer Science Grad Student at Madan Mohan Malaviya University, Gorakhpur.
+          Currently gaining practical experience as a Full-Stack Developer intern at GID Interactive LLP.
+          I know technologies like React.js, MongoDB, Node.js, MySQL, HTML5, CSS, javascript, C++, java.
+          Head Web Developer at CES society in my college.
+          I am passionate about software developement roles. -->
+        </p>
+        <p>
+        <ul>
+          <li><b>Languages:</b> C, C++, Java, Javascript, Python</li>
+          <li><b>Databases:</b> MySQL, MongoDB</li>
+          <!-- <li><b>Libraries:</b> React.js</li> -->
+          <li><b>Frameworks:</b> Reactjs, Expressjs, Node.js, Bootstrap, Tailwind, MaterialUI</li>
+          <li><b>Tools:</b> Git/Github, VSCode, Postman, Docker, Wordpress, Figma</li>
+          <li><b>Course Work:</b> Data Structure Algorithms, DBMS, OOPS, Computer Networks, Operating System, Software
+            Engineering</li>
+        </ul>
+        </p>
+        <p>
+          Looking for an opportunity to work at a Software Developer role combining my skills in Software Engineering,
+          which provides professional development, interesting experiences and personal growth.
+        </p>
+      </div>
+    </section>
+    <!-- Third Section: Experience -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+
+        <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.linkedin.com/company/prodshell/" target="_blank"><img alt="GID logo"
+                    src="/assets/img/prodshell_logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.linkedin.com/company/prodshell/" target="_blank"
+                      class="teal-text hoverline">ProdShell Technology</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Full Stack Developer Intern</div>
+            <ul>
+              <li>
+                Contributed to a Full Stack Development project for an internal web application using the MERN stack,
+                TailwindCSS, and WebSockets, working within an Agile Development team to ensure timely delivery of
+                features.
+              </li>
+              <li>
+                Gained hands-on experience in UI/UX design and technologies, including CI/CD pipelines, Docker, and
+                Kubernetes, enabling scalable, containerized applications.
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span style="color: #004d40;">August 2024 - Present | Remote</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.linkedin.com/company/gidinteractive/" target="_blank"><img alt="GID logo"
+                    src="/assets/img/gidlogo.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.linkedin.com/company/gidinteractive/" target="_blank"
+                      class="teal-text hoverline">GID Interactive Llp</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Junior Developer Intern</div>
+            <ul>
+              <li>
+                Developed feature like AI-quiz maker, Event Gallery in MERN stack based project that helps organization
+                to seamlessly host and conduct events at college level, learned skills in technology adoption, feature
+                integration and maintain stability.
+              </li>
+              <li>
+                Contributing with team for implementing streak and point system for users.
+              </li>
+              <li>
+                Improved front-end and UX, refining interface for user engagement and visual appeal, demonstrating
+                experience in UI enhancement and responsive design.
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span style="color: #004d40;">April 2024 - August 2024 | Remote</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.linkedin.com/company/bds-electronics/" target="_blank"><img alt="BDS logo"
+                    src="/assets/img/BDS Logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.linkedin.com/company/bds-electronics/" target="_blank"
+                      class="teal-text hoverline">BDS Electronics</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Web Developer Intern</div>
+            <ul>
+              <li>
+                Contributed actively to front-end projects, enhancing user interfaces and functionalities.
+              </li>
+              <li>
+                Acquired exposure in website UI design, wireframing utilizing tools like Figma, and content management
+                tool like WordPress.
+              </li>
+              <li>
+                Demonstrated effective teamwork skills, collaborating with peers to accomplish project goals.
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span style="color: #004d40;">Jan 2024 - March 2024 | Remote</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Third Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="music streaming app" src="/assets/img/blog_project.png" style="height: 100%; width: 100%"
+                  class="activator cover" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Blog site - Fingertip<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A full-stack(MERN) based blog website project that supports feature like login/logout, create, update
+                  or delete blogs.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> HTML, CSS, Bootstrap, JS, Expressjs, Node.js, Reactjs, Mongodb, Cloudinary</li>
+                  <li>Register/login to the web app(with JWT authentication).</li>
+                  <li>Create, update, delete posts and comments</li>
+                  <li>Seamless UI experience.</li>
+                </ul>
+                <div class="card-action">
+                  <!-- <a aria-label="Visit " href="https://grumpy-cyan-goshawk.cyclic.app/" target="_blank"
+                    data-position="top" data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a> -->
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/Prashu-01/Blogsite-Fingertip" target="_blank" data-position="top"
+                    data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="music streaming app" src="/assets/img/ennexus.png" style="height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Ennexus-23<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A reactjs based webpage with responsive UI and visual features.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> HTML, CSS, Bootstrap, GSAP, JS, React.js</li>
+                  <li>Responsive and visual featured webpage</li>
+                  <li>Scroll through the webpage to experience it.</li>
+                  <li>Made with collaborating with my fellowmate.</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit " href="https://cesennexus2k23.netlify.app/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/raghav1482/Ennexus-2023"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="music streaming app" src="/assets/img/newsapp.png" style="height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Newsapp - Khojkhabar<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A reactjs based newsapp that uses an public API to show realtime news.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> HTML, CSS, Bootstrap, Reactjs, JSON-api</li>
+                  <li>Responsive and user-friendly UI</li>
+                </ul>
+                <div class="card-action">
+                  <!-- <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank"
+                    data-position="top" data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a> -->
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/Prashu-01/NewsApp-khojkabar" target="_blank" data-position="top"
+                    data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="music streaming app" src="/assets/img/weather.png" style="height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Weather app<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A front-end project that shows realtime weather condition of user specified location.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b>HTML, CSS, Bootstrap, JS, JSON-api</li>
+                  <li>Clean and responsive UI</li>
+                  <li>Uses JS fetch method to get the data from API.</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit " href="https://prashu-01.github.io/WeatherApp/" target="_blank"
+                    data-position="top" data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/Prashu-01/WeatherApp"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Forth section: Position of Responsibility -->
+    <!-- <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Position of Responsibility</h3>
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.linkedin.com/company/cesmmmut" target="_blank"><img alt="CES logo"
+                    src="/assets/img/ces.png" class="responsive-img center-block" /></a>
+              </div>
+              
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.linkedin.com/company/cesmmmut" target="_blank"
+                      class="teal-text hoverline">CES MMMUT</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Head Web Developer</div>
+            <ul>
+              <li>
+                Contributed in building websites for different events for the society.
+              </li>
+              <li>
+                Developed a react.js based webpage for the annual event having clean and responsive UI, optimal
+                components structure.
+              </li>
+              <li>
+                Have been a part of team that conducted events at a college level. for giving insights of working in
+                CS/IT field.
+              </li>
+              <li>Explored fields including Graphic designing, development, teamwork, planning etc.</li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span style="color: #004d40;">July 2022 - Present | MMMUT, Gorakhpur</span>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <!-- Languages and Databases -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Languages and Databases</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/c++.png" class="responsive-img" />C/C++
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/java.png" class="responsive-img" />Java
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/javascript.png" class="responsive-img" />JS
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" />MySQL
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/pngwing.com (3).png" class="responsive-img" />MongoDB
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Front-end</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/bootstrap.png" class="responsive-img" />Bootstrap
+              </div>
+              <div class="col s4 m2">
+                <img alt=""
+                  src="data:image/png;base64,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"
+                  class="responsive-img" />Tailwind
+              </div>
+              <div class="col s4 m2">
+                <img alt=""
+                  src="https://mui.com/static/logo.png"
+                  class="responsive-img" />MaterialUI
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/reactjs.png" class="responsive-img" />Reactjs
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Tools and Technologies</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="nodejs" src="/assets/img/nodejs.png" class="responsive-img" />Node.js
+              </div>
+              <div class="col s4 m2">
+                <img alt="git" src="/assets/img/git.png" class="responsive-img" />Git
+              </div>
+              <div class="col s4 m2">
+                <img alt="github" src="/assets/img/github.png" class="responsive-img" />Github
+              </div>
+              <div class="col s4 m2">
+                <img alt="docker" src="/assets/img/docker.png" class="responsive-img" />Docker
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Education -->
+          <div class="col s12 m6 l6">
+            <div class="card" style="margin:auto">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.asu.edu/" target="_blank"
+                      class="teal-text hoverline">Madan Mohan Malaviya University</a></span>
+                </p>
+                <p class="brown-text">Gorakhpur, U.P</p>
+                <p>
+                  <b>Degree: </b>Bachelor of Technology in Computer Science
+                  <br>
+                  <b>CGPA: </b>7.42 (till 6th semeter)
+                  <br>
+                  <b>Year: </b>4th Year
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+
+        <p>
+          <a aria-label="Email Prashu" href="mailto:prashuverma012@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Prashu" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Prashu" href="mailto:prashuverma012@gmail.com"
+              class="hoverline">prashuverma012@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Prashu on GitHub" href="https://github.com/Prashu-01" target="_blank" data-position="top"
+            data-tooltip="View Prashu on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Prashu on Github" href="https://github.com/Prashu-01" class="hoverline"
+              target="_blank">github.com/Prashu-01</a></a>
+        </p>
+        <p>
+          <a aria-label="View Prashu on LinkedIn" href="https://www.linkedin.com/in/prashu-verma-517890227/"
+            target="_blank" data-position="top" data-tooltip="View Prashu on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Prashu on LinkedIn"
+              href="https://www.linkedin.com/in/prashuverma/" class="hoverline"
+              target="_blank">linkedin.com/in/Prashu</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing', {
+      strings: ["Pythonist", "Developer", "Fast Learner"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, //240
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+</body>
+
+</html>
